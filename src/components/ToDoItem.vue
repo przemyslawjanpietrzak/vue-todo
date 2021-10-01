@@ -1,5 +1,5 @@
 <template>
-    <div class="ToDoItem">
+    <div class="ToDoItem" data-test-id="todo-item">
         <p class="ToDoItem-Text">{{todo.text}}</p>
         <div class="ToDoItem-Delete"
              @click="deleteItem(todo)">-
